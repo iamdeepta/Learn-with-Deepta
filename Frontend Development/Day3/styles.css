@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hello-text {
+  color: red;
+}
+
+.main-div {
+  background: gray;
+  padding: 20px;
+}
+
+.main-div p {
+  color: white;
+  font-size: 12px;
+}
+
+#section1 {
+  background-color: aqua;
+  margin: 20px 230px;
+}
+
+#section1 h2 {
+  color: red;
+}
