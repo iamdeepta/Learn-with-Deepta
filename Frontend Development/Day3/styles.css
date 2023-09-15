@@ -16,6 +16,7 @@
 .main-div p {
   color: white;
   font-size: 12px;
+  margin: left 0; ;
 }
 
 #section1 {
@@ -23,6 +24,6 @@
   margin: 20px 230px;
 }
 
-#section1 h2 {
-  color: red;
+#section1 {
+  image-rendering: auto;
 }
