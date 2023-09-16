@@ -31,6 +31,8 @@ body {
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  border: 1px solid red;
 }
 
 table thead {
@@ -41,16 +43,16 @@ table thead tr th {
   font-size: 20px;
   color: white;
   padding: 10px 0px;
-  border: 1px solid red;
-  border-radius: 10px;
+  border: 1px solid black;
+  /* border-radius: 10px; */
 }
 
 table tbody tr td {
   font-size: 18px;
-  border: 1px solid gray;
+  border: 1px solid black;
   padding: 10px 0px;
   text-align: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background: greenyellow;
 }
 
