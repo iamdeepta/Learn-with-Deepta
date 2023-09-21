@@ -1,0 +1,139 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap"); */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 400vh;
+}
+
+.div1 {
+  padding-top: 100px;
+}
+
+.div1 p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  /* color: green; */
+  /* stroke: blue; */
+  cursor: no-drop;
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* font-family: "Fuggles", cursive; */
+  font-family:'Poppins', sans-serif;
+
+
+  background: pink;
+  /* padding: 30px 20px; */
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid red;
+}
+
+table thead {
+  background: peru;
+}
+
+table thead tr th {
+  font-size: 20px;
+  color: white;
+  padding: 10px 0px;
+  border: 1px solid black;
+   /* border-radius: 10px; */
+}
+
+table tbody tr td {
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 10px 0px;
+  text-align: center;
+  background: brown;
+}
+
+table tbody tr td:nth-child(1) {
+  text-align: left;
+}
+
+table tbody tr td:nth-child(3) {
+  text-align: left;
+}
+
+button {
+  font-size: 20px;
+  border: 0px solid transparent;
+  background: linear-gradient(to right, yellow, red);
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 1s;
+}
+
+button:hover {
+  background: none;
+  border: 1px solid brown;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: bisque;
+  padding: 10px 40px;
+}
+
+nav img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+nav ul li {
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+
+nav ul li::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: orangered;
+  display: none;
+  width: 100%;
+}
+
+nav ul li:hover::before {
+  display: block;
+}

@@ -27,3 +27,8 @@
 #section1 {
   image-rendering: auto;
 }
+
+img {
+  width: 300px;
+  height: 200px;
+}

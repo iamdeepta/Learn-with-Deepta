@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+
+  nav img{
+    width:100px;
+    height: auto;
+  }
+  nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(95, 6, 6);
+    padding: 10px 40px;
+}
+
+
+  
+
+  .div1 h3 {
+    padding-top: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+
+  }
+
+  .div1 p{
+    padding-top:50px;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    
+}
+  img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: all 3s;
+    border-radius: 10px;
+  }
+
+  
+
+  button {
+    font-size: 30px;
+    background: linear-gradient(to left, rgb(9, 1, 37), rgba(59, 13, 187, 0.014));
+
+    color: palevioletred;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 10px;
+  }
+  button:hover {
+    background: none;
+    border: 1px blue;
+    color: black;
+  }
+
+  table thead tr th {
+    font-size: 50px;
+    color: white;
+    padding: 20px 0px;
+    border: 1px solid black;
+   
+  }
+ .main-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+  }
+
+  
+
+  
+  table tbody tr td {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px 0px;
+    text-align: center;
+    background: rgb(229, 151, 151);
+  }
+  table thead {
+    background-color:firebrick;
+  }
+  table {
+    width: 100%;
+    border: 1px solid red;
+    border-collapse: collapse
+  }
+  
+
+
+
+  
+
+
+
+
+
+
+
