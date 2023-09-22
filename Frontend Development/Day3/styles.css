@@ -16,16 +16,12 @@
 .main-div p {
   color: white;
   font-size: 12px;
-  margin: left 0; ;
+  margin: left 0;
 }
 
 #section1 {
   background-color: aqua;
   margin: 20px 230px;
-}
-
-#section1 {
-  image-rendering: auto;
 }
 
 img {
