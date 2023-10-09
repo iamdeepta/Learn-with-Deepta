@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    padding: 30px;
+    overflow-x: hidden;
+  }
+
+  nav img{
+    width:100px;
+    height: 70%;
+  }
+  nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+  .card {
+    display: flex;
+    border-radius: 6px;
+    text-align: center;
+    /* transition: 1s all; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 200px;
+    flex-wrap: wrap;
+  }
+
+  .card-image{
+    width: 20%;
+  }
+ 
+ 
+ @keyframes updowns {
+    0% {
+        transform: translateX(0px) translateY(0px);
+      }
+      100% {
+        transform: translateX(500px) translateY(200px);
+      }
+
+
+ }
+
+ img {
+  width: 250px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: pointer;
+  transition: all 3s;
+  border-radius: 10px;
+}
+button {
+  font-size: 30px;
+  background: linear-gradient(to left, rgb(9, 1, 37), rgba(59, 13, 187, 0.014));
+
+  color: palevioletred;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 1s;
+  border-radius: 10px;
+}
+button:hover {
+  background: none;
+  border: 1px blue;
+  color: black;
+}
+
+
+.card div img:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+ }
+
+ @media screen and (max-width: 550px) {
+  .card {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .card-image{
+    width: 100%;
+  }
+
+  nav img{
+    width:100px;
+    height: 70%;
+  }
+  nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+
+} 
+
+
