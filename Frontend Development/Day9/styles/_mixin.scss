@@ -1,0 +1,6 @@
+@mixin flex-property($bg-color, $justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: center;
+  background: $bg-color;
+}

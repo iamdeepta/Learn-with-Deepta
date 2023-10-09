@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.div1 {
+  background: yellow;
+}
+.div1 .child-div1 p {
+  color: blue;
+  font-size: 10rem;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+}
+
+.card-div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}/*# sourceMappingURL=style.css.map */

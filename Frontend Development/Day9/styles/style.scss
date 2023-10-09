@@ -1,0 +1,32 @@
+@import "mixin";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.div1 {
+  background: yellow;
+  //   height: 100vh;
+  //   width: 100vw;
+  .child-div1 {
+    p {
+      color: $color;
+      font-size: $fontSize;
+    }
+  }
+}
+
+.card-div {
+  @include flex-property(pink, space-between);
+}
+
+.card-div2 {
+  @include flex-property(red, center);
+}
