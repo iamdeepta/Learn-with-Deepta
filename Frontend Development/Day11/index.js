@@ -48,3 +48,13 @@ if (number1 + number2 > 10) {
 }
 
 console.log("3" + 5);
+
+function getWeight(weight1, weight2) {
+  if (weight1 + weight2 > 100) {
+    return "The weight is over 100";
+  } else {
+    return "The weight is less than 100";
+  }
+}
+
+console.log(getWeight(40, 50));
