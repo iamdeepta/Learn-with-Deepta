@@ -1,0 +1,15 @@
+.node {
+  &.node2 {
+    p {
+      color: blue;
+    }
+  }
+
+  p {
+    color: red;
+  }
+}
+
+.error-message {
+  display: none;
+}
