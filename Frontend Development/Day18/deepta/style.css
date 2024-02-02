@@ -1,0 +1,22 @@
+.para,
+.paraPost {
+  background: teal;
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.paraPost {
+  background: rgb(255, 166, 0);
+}
+
+.div,
+.postDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
