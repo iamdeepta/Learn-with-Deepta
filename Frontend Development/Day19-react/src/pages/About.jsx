@@ -1,10 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import PageHeader from "../components/PageHeader";
 
 const About = () => {
   return (
     <>
-      <div>This is about page</div> <Link to={"/contact"}>Got to Contact</Link>
+      <PageHeader
+        headerText={"This is about page"}
+        headerLink={"/contact"}
+        headerLinkText={"Go to contact page"}
+      />
+
+      <Button buttonName={"About Button"} />
     </>
   );
 };

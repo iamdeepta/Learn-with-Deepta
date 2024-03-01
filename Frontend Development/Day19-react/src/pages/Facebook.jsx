@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import PageHeader from "../components/PageHeader";
 
 const Facebook = () => {
   return (
-    <div>This is facebook</div>
-  )
-}
+    <PageHeader
+      headerText={"This is facebook page"}
+      headerLink={"/"}
+      headerLinkText={"Go to home page"}
+    />
+  );
+};
 
-export default Facebook
+export default Facebook;

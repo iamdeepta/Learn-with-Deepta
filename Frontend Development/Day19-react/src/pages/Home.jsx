@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import PageHeader from "../components/PageHeader";
 
 const Home = () => {
   return (
-    <>
-      <div>This is home page</div>
-      <Link to={"/about"}>Got to About</Link>
-    </>
+    <PageHeader
+      headerText={"This is home page"}
+      headerLink={"/about"}
+      headerLinkText={"Go to about page"}
+    />
   );
 };
 
